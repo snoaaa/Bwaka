@@ -1,27 +1,13 @@
-# YouDonSeeAm 📱
+# He'i 📱
 
-Lost & Found mobile application built with **React Native**, **Expo (Expo Router)**, **TypeScript**, and **Supabase (PostgreSQL).**
+<p align="center">
+  <img src="./assets/images/hei-logo-light.png" alt="He'i Logo" width="260" />
+</p>
 
----
+> **He’i** (pronounced *HAY-ee*) — in Fulfulde (spoken across Northern Cameroon and the broader Sahel region), He’i translates directly to:  
+> **"It is found"** or **"It is here."**
 
-## Project Structure
-
-```
-YouDonSeeAm/
-├── src/                # Application source code
-│   ├── app/            # File-based routes (Expo Router)
-│   ├── components/     # UI components
-│   ├── constants/      # App constants & theme
-│   └── hooks/          # Custom React hooks
-├── assets/             # Images, icons, and static assets
-├── supabase/           # Supabase backend & database configuration
-├── app.json            # Expo configuration
-├── package.json        # Dependencies & scripts
-├── tsconfig.json       # TypeScript configuration
-├── eslint.config.js    # ESLint configuration
-├── .env.example        # Environment variable template
-└── README.md           # Documentation
-```
+A modern Lost & Found mobile application built with **React Native**, **Expo (Expo Router)**, **TypeScript**, and **Supabase (PostgreSQL)**.
 
 ---
 

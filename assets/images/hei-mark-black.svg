@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="none">
+  <rect x="50" y="50" width="900" height="900" stroke="#1E1E1E" stroke-width="30" />
+  <circle cx="842" cy="156" r="66" fill="#1E1E1E" />
+  <text x="100" y="870" fill="#1E1E1E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="240" font-weight="700" letter-spacing="-4">He’i</text>
+</svg>
