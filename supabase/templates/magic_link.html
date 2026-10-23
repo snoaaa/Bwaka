@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>He'i Verification Code</title>
+  </head>
+  <body style="margin:0;padding:0;background:#ffffff;font-family:'League Spartan','Helvetica Neue',Arial,sans-serif;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#ffffff;">
+      <tr>
+        <td align="center" style="padding:40px 30px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:360px;">
+            <tr>
+              <td align="center" style="padding-bottom:24px;">
+                <span style="font-size:24px;font-weight:600;color:#2260ff;">He'i</span>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-bottom:12px;">
+                <span style="font-size:24px;font-weight:600;color:#2260ff;">Verification Code</span>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-bottom:20px;font-size:14px;line-height:20px;font-weight:300;color:#070707;">
+                Use this 6-digit code to verify your He'i account. This code expires in 15 minutes.
+              </td>
+            </tr>
+            <tr>
+              <td align="center" style="padding-bottom:24px;">
+                <div style="display:inline-block;padding:12px 28px;background:#f3f6ff;border-radius:12px;border:1px solid #d5e2ff;letter-spacing:6px;font-size:28px;font-weight:700;color:#2260ff;">
+                  {{ .Token }}
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:12px;line-height:16px;font-weight:300;color:#070707;">
+                If you didn't request this code, you can safely ignore this email.
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

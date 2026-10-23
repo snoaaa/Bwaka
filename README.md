@@ -1,7 +1,7 @@
 # He'i 📱
 
 <p align="center">
-  <img src="./assets/images/hei-logo-light.png" alt="He'i Logo" width="260" />
+  <img src="./assets/images/hei-logo.png" alt="He'i Logo" width="260" />
 </p>
 
 > **He’i** (pronounced *HAY-ee*) — in Fulfulde (spoken across Northern Cameroon and the broader Sahel region), He’i translates directly to:  
