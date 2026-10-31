@@ -132,14 +132,6 @@ export default function LoginScreen() {
     }
   }
 
-  function onBack() {
-    if (router.canGoBack()) {
-      router.back();
-    } else {
-      router.replace('/');
-    }
-  }
-
   return (
     <AuthScreen
       footer={
@@ -149,7 +141,7 @@ export default function LoginScreen() {
           onPress={() => router.replace('/sign-up')}
         />
       }>
-      <ScreenHeader title="Log In" onBack={onBack} />
+      <ScreenHeader title="Log In" />
 
       <AppText variant="title" style={styles.welcome}>
         Welcome

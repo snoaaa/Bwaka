@@ -1,10 +1,10 @@
 import { useRouter } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, useRef, useState } from 'react';
-import { Animated, Pressable, StyleSheet, View } from 'react-native';
+import { Animated, Pressable, StyleSheet } from 'react-native';
 
-import { AppText, BrandMark } from '@/components/ui';
-import { Colors, FontFamily } from '@/constants/theme';
+import { BrandMark } from '@/components/ui';
+import { Colors } from '@/constants/theme';
 
 export default function FirstScreen() {
   const router = useRouter();
@@ -18,26 +18,26 @@ export default function FirstScreen() {
       if (navigatedRef.current) return;
       navigatedRef.current = true;
       if (timerRef.current) clearTimeout(timerRef.current);
-      router.push('/login');
+      router.replace('/login');
     }
 
     Animated.parallel([
       Animated.timing(fadeAnim, {
         toValue: 1,
-        duration: 500,
+        duration: 700,
         useNativeDriver: true,
       }),
       Animated.spring(scaleAnim, {
         toValue: 1,
-        tension: 40,
-        friction: 7,
+        tension: 35,
+        friction: 8,
         useNativeDriver: true,
       }),
     ]).start();
 
     timerRef.current = setTimeout(() => {
       proceed();
-    }, 2400);
+    }, 3800);
 
     return () => {
       if (timerRef.current) clearTimeout(timerRef.current);
@@ -48,7 +48,7 @@ export default function FirstScreen() {
     if (navigatedRef.current) return;
     navigatedRef.current = true;
     if (timerRef.current) clearTimeout(timerRef.current);
-    router.push('/login');
+    router.replace('/login');
   }
 
   return (
@@ -67,13 +67,8 @@ export default function FirstScreen() {
             transform: [{ scale: scaleAnim }],
           },
         ]}>
-        <BrandMark size={148} color={Colors.white} />
-        <AppText style={styles.slogan}>It&apos;s here!</AppText>
+        <BrandMark size={180} color={Colors.white} />
       </Animated.View>
-
-      <View style={styles.bottomPrompt}>
-        <AppText style={styles.tapPrompt}>Tap anywhere to continue</AppText>
-      </View>
     </Pressable>
   );
 }
@@ -88,25 +83,5 @@ const styles = StyleSheet.create({
   centerContent: {
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  slogan: {
-    marginTop: 24,
-    fontFamily: FontFamily.bold,
-    fontSize: 32,
-    lineHeight: 38,
-    color: Colors.white,
-    letterSpacing: 0.5,
-    textAlign: 'center',
-  },
-  bottomPrompt: {
-    position: 'absolute',
-    bottom: 50,
-  },
-  tapPrompt: {
-    fontFamily: FontFamily.medium,
-    fontSize: 13,
-    lineHeight: 18,
-    color: 'rgba(255, 255, 255, 0.7)',
-    letterSpacing: 0.3,
   },
 });
