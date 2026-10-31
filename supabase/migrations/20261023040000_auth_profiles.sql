@@ -1,5 +1,5 @@
 -- =============================================================================
--- He'i — auth profiles
+-- Bwaka — auth profiles
 --
 -- One `public.profiles` row per `auth.users` row, created by a trigger from the
 -- user metadata the client sends at sign-up (email magic link) or that the

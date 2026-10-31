@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "He'i",
-    "slug": "hei",
+    "name": "Bwaka",
+    "slug": "bwaka",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "hei",
+    "scheme": "bwaka",
     "userInterfaceStyle": "light",
     "ios": {
       "icon": "./assets/images/icon.png"
@@ -29,7 +29,7 @@
         "expo-splash-screen",
         {
           "backgroundColor": "#FFFFFF",
-          "image": "./assets/images/hei-mark-blue.png",
+          "image": "./assets/images/bwaka-mark-blue.png",
           "imageWidth": 270
         }
       ],

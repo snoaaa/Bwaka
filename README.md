@@ -1,13 +1,10 @@
-# He'i 📱
-
 <p align="center">
-  <img src="./assets/images/hei-logo.png" alt="He'i Logo" width="260" />
+  <img src="./assets/images/bwaka-social-preview.png" alt="Bwaka Banner" width="100%" style="border-radius: 12px;" />
 </p>
 
-> **He’i** (pronounced *HAY-ee*) — in Fulfulde (spoken across Northern Cameroon and the broader Sahel region), He’i translates directly to:  
-> **"It is found"** or **"It is here."**
+# Bwaka 📱
 
-A modern Lost & Found mobile application built with **React Native**, **Expo (Expo Router)**, **TypeScript**, and **Supabase (PostgreSQL)**.
+> **Bwaka** — A modern Lost & Found mobile application built with **React Native**, **Expo (Expo Router)**, **TypeScript**, and **Supabase (PostgreSQL)**.
 
 ---
 

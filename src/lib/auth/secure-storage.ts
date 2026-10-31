@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as SecureStore from 'expo-secure-store';
 import * as aesjs from 'aes-js';
 
-const KEY_PREFIX = 'hei_sec_key:';
+const KEY_PREFIX = 'bwaka_sec_key:';
 
 class LargeSecureStorage {
   private isNative = Platform.OS === 'ios' || Platform.OS === 'android';

@@ -1,6 +1,6 @@
 export { AppText } from './app-text';
 export { AuthScreen } from './auth-screen';
-export { BrandMark } from './brand-mark';
+export { BrandMark, BwakaLogo, BwakaWordmark } from './brand-mark';
 export { Button } from './button';
 export { FooterPrompt } from './footer-prompt';
 export { BackChevron, FacebookIcon, GoogleIcon } from './icons';

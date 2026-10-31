@@ -54,7 +54,7 @@ export default function FirstScreen() {
   return (
     <Pressable
       accessibilityRole="button"
-      accessibilityLabel="Welcome to He'i. Tap to continue."
+      accessibilityLabel="Welcome to Bwaka. Tap to continue."
       onPress={handlePress}
       style={styles.container}>
       <StatusBar style="light" />
